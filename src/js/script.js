@@ -45,7 +45,11 @@ switch (classificacao){
         break;    
 }
 
+console.log("===== Questão 4 =====");
 
+for (let p = 1; p <= 50; p++){
+    console.log("O valor é:", p);
+}
 
 
 
