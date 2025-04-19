@@ -51,8 +51,18 @@ for (let p = 1; p <= 50; p++){
     console.log("O valor é:", p);
 }
 
+console.log("===== Questão 5 =====");
 
+let usuario = "admin";
+let senha = "1234";
 
+if (usuario === "admin" && senha === "1234"){
+    console.log("Login realizado com sucesso!");
+}else{
+    console.log("Falha na autentição!")
+}
+
+console.log("===== Questão 6 =====");
 
 
 
