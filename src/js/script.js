@@ -98,10 +98,20 @@ Curso: ${curso} <br>
 Ano: ${ano}
 `;
 
+console.log("===== Questão 8 =====");
+let  texto = "Tecnologia é um produto da ciência e da engenharia que envolve um conjunto de instrumentos, métodos e técnicas que visam a resolução de problemas.";
 
+let posicaoEm = texto.indexOf("em");
+console.log("1- Primeira posicao de 'em':", posicaoEm);
 
+let posicaoFinal = texto.lastIndexOf("ia");
+console.log("2- Ultima posicao de 'ia':", posicaoFinal)
 
+let palavraCiencia = texto.includes("ciência");
+console.log("3- A palavra 'ciencia' está no texto?", palavraCiencia)
 
+let palavraMetodos = texto.includes("métodos");
+console.log("4 - A palavra 'métodos' está no texto?", palavraMetodos);
 
 
 
