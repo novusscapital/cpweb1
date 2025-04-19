@@ -82,6 +82,55 @@ if (media >= 6){
     console.log("Aluno reprovado!");
 }
 
+console.log("===== Questão 7 =====");
+
+let nome = "Eduardo";
+let idade = "21";
+let curso = "Engenharia de Software";
+let ano = "2025";
+
+let saida = document.getElementById("saida");
+
+saida.innerHTML = `
+Nome: ${nome} <br>
+Idade: ${idade} <br>
+Curso: ${curso} <br>
+Ano: ${ano}
+`;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
