@@ -64,10 +64,23 @@ if (usuario === "admin" && senha === "1234"){
 
 console.log("===== Questão 6 =====");
 
+let nota1 = 3;
+let nota2 = 2; 
+let nota3 = 1; 
+let nota4 = 2; 
+let nota5 = 4; 
+let nota6 = 3;
+let nota7 = 2; 
 
+let media = (nota1 + nota2 + nota3 + nota4 + nota5 + nota6 + nota7) / 7;
 
+console.log("Média:", media.toFixed(2));
 
-
+if (media >= 6){
+    console.log("Aluno aprovado!");
+}else{
+    console.log("Aluno reprovado!");
+}
 
 
 
