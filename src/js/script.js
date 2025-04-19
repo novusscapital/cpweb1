@@ -1,4 +1,5 @@
 console.log("===== Questão 1 =====");
+
 let a;
 console.log(a)
 
@@ -99,6 +100,7 @@ Ano: ${ano}
 `;
 
 console.log("===== Questão 8 =====");
+
 let  texto = "Tecnologia é um produto da ciência e da engenharia que envolve um conjunto de instrumentos, métodos e técnicas que visam a resolução de problemas.";
 
 let posicaoEm = texto.indexOf("em");
@@ -113,7 +115,13 @@ console.log("3- A palavra 'ciencia' está no texto?", palavraCiencia)
 let palavraMetodos = texto.includes("métodos");
 console.log("4 - A palavra 'métodos' está no texto?", palavraMetodos);
 
+console.log("===== Questão 9 =====");
 
+let numero = "212.01";
+console.log("Antes de converter:", numero, "| tipo:", typeof numero);
+
+let convertido = parseFloat(numero);
+console.log("Depois da conversao:", convertido, "| Tipo:", typeof convertido)
 
 
 
